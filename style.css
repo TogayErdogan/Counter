@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url('background-image.jpg') no-repeat center/cover;
+  height: 100vh;
+}
+
+.container{
+  width: 95%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  min-height: 350px;
+  margin: auto;
+  padding: 25px;
+  text-align: center;
+  border: 5px groove black;
+  border-radius: 10px;
+  color: #bbb;
+}
+
+.counter h1{
+  color: #000;
+  font-size: 2rem;
+}
+
+#count{font-size: 9rem;}
+
+#buttons{display: inline-block;}
